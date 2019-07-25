@@ -1,0 +1,44 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CONDITION_H	Condition.h	8;"	d
+COUNTDOWNLATCH_H	CountDownLatch.h	8;"	d
+Condition	Condition.h	/^	Condition(MutexLock& mutex) : mutex_(mutex) {$/;"	f	class:Condition
+Condition	Condition.h	/^class Condition : noncopyable {$/;"	c
+CountDownLatch	CountDownLatch.h	/^	CountDownLatch(int count) : mutex_(), condition_(mutex_), count_(count) {$/;"	f	class:CountDownLatch
+CountDownLatch	CountDownLatch.h	/^class CountDownLatch : noncopyable {$/;"	c
+MutexLock	MutexLock.h	/^	MutexLock(){$/;"	f	class:MutexLock
+MutexLock	MutexLock.h	/^class MutexLock : noncopyable {$/;"	c
+MutexLockGuard	MutexLock.h	/^	explicit MutexLockGuard(MutexLock& mutex) : mutex_(mutex) {$/;"	f	class:MutexLockGuard
+MutexLockGuard	MutexLock.h	/^class MutexLockGuard : noncopyable {$/;"	c
+MutexLockGuard	MutexLock.h	45;"	d
+MutexLock_H	MutexLock.h	8;"	d
+NONCOPYABLE_H	noncopyable.h	8;"	d
+condition_	CountDownLatch.h	/^	Condition condition_;$/;"	m	class:CountDownLatch
+count_	CountDownLatch.h	/^	int count_;$/;"	m	class:CountDownLatch
+countdown	CountDownLatch.h	/^	void countdown() {$/;"	f	class:CountDownLatch
+func1	test.cpp	/^void* func1(void* arg) {$/;"	f
+func2	test.cpp	/^void* func2(void* arg) {$/;"	f
+func3	test.cpp	/^void* func3(void* arg) {$/;"	f
+getPthreadMutex	MutexLock.h	/^	pthread_mutex_t* getPthreadMutex() {$/;"	f	class:MutexLock
+lock	MutexLock.h	/^	void lock() {$/;"	f	class:MutexLock
+main	test.cpp	/^int main() {$/;"	f
+mutex_	Condition.h	/^	MutexLock& mutex_;$/;"	m	class:Condition
+mutex_	CountDownLatch.h	/^	mutable MutexLock mutex_;$/;"	m	class:CountDownLatch
+mutex_	MutexLock.h	/^	MutexLock& mutex_;$/;"	m	class:MutexLockGuard
+mutex_	MutexLock.h	/^	pthread_mutex_t mutex_;$/;"	m	class:MutexLock
+noncopyable	noncopyable.h	/^	noncopyable(){$/;"	f	struct:noncopyable
+noncopyable	noncopyable.h	/^struct noncopyable{$/;"	s
+notify	Condition.h	/^	void notify() {$/;"	f	class:Condition
+notifyAll	Condition.h	/^	void notifyAll() {$/;"	f	class:Condition
+pcond_	Condition.h	/^	pthread_cond_t pcond_;$/;"	m	class:Condition
+unlock	MutexLock.h	/^	void unlock() {$/;"	f	class:MutexLock
+wait	Condition.h	/^	void wait() {$/;"	f	class:Condition
+wait	CountDownLatch.h	/^	void wait() {$/;"	f	class:CountDownLatch
+~Condition	Condition.h	/^	~Condition() {$/;"	f	class:Condition
+~MutexLock	MutexLock.h	/^	~MutexLock(){$/;"	f	class:MutexLock
+~MutexLockGuard	MutexLock.h	/^	~MutexLockGuard() {$/;"	f	class:MutexLockGuard
+~noncopyable	noncopyable.h	/^	~noncopyable(){$/;"	f	struct:noncopyable
